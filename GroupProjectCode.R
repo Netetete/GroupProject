@@ -14,3 +14,5 @@ df <- st_as_sf(df)
 
 # Export to shapefile
 st_write(df, "spatial_merged_data.shp")
+
+opp_atlas <- read_dta("us_tract_2010_2020_crosswalk.dta")
